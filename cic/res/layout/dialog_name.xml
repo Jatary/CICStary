@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:id="@+id/lineardialog"
+        android:layout_height="150dp"
+        android:layout_width="400dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/etdialogname"
+            android:layout_width="280dp"
+            android:layout_height="100dp"
+            android:hint="请输入昵称！"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="#6699ff">
+            </EditText>
+
+        <Button
+            android:id="@+id/btdialogname"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="提交"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    
+
+</LinearLayout>
